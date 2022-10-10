@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>vystup</title>
+</head>
+<body>
+<table>
+
+{% for item in data %}
+    <tr>
+    <th><h1>{{ item["title"] }}</h1></th>
+    <th>{{ item["content"] }}</th>
+    </tr>
+{% endfor %}
+
+</table>
+</body>
+</html>
